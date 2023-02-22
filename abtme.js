@@ -13,7 +13,7 @@ function quiz () {
    
    let edu = prompt("Is it true I graduted highschool in 2022");
    let edulow = edu.toLowerCase()
-    if (qss === true )
+    if (edulow === true )
      alert("Correct!")
    else {
      alert("incorrect")
