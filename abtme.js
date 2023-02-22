@@ -21,7 +21,7 @@ function quiz () {
 
    let sd = prompt("Is is false that i hate software developing");
    let sdlow = sd.toLowerCase()
-    if (sd === true)
+    if (sdlow === true)
      alert("Correct")
    else {
      alert("incorrect")
@@ -29,7 +29,7 @@ function quiz () {
 
    let comp = prompt("Is it true Kristian wants to work for a big company");
    let complow = comp.toLowerCase()
-    if (comp === true)
+    if (complow === true)
      alert("Correct")
    else {
      alert("incorrect")
@@ -37,7 +37,7 @@ function quiz () {
 
    let grad = prompt("Is it true that Kristian graduates code crew in 2023");
    let gradlow = grad.toLowerCase()
-    if (grad === true)
+    if (gradlow === true)
      alert("Correct")
    else {
      alert("incorrect")
