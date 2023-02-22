@@ -1,0 +1,3 @@
+function quiz () {
+    let qs = [""]
+}
