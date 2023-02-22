@@ -8,8 +8,8 @@ function quiz () {
 let as = ["Yes",
 "No",
 "Yes",
-"yes",
-"yes",]
+"Yes",
+"Yes",]
 }
 
 let person = prompt("Enter your name")
