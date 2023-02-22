@@ -1,12 +1,13 @@
 function quiz () {
-   let qs = ["Is it true I want to get into game development",
-   "Is it true I graduted highschool in 2023",
+   let qs = prompt("Is it true I want to get into game development");
 
-   "Is is false that i hate software developing",
+   ("Is it true I graduted highschool in 2023")
 
-   "Is it true Kristian wants to work for a big company",
+   ("Is is false that i hate software developing"),
 
-   "Is it true that Kristian graduates code crew in 2023"];
+   ("Is it true Kristian wants to work for a big company"),
+
+   ("Is it true that Kristian graduates code crew in 2023");
 
 let as = ["Yes",
 "No",
