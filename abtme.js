@@ -56,5 +56,5 @@ function quiz () {
      //console.log("incorrect")
    }
 
-alert("Yay!" + " " + person + "you scored a" + " " + "out of 5 questions")
+alert(`Yay!" + ${person} + "you scored a" + " " + "out of 5 questions`)
 }
