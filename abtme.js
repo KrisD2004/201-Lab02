@@ -61,7 +61,7 @@ function quiz () {
    let i;
 
    for (i = 0; i < tries; i++){
-    let guess=prompt("Welcome to guessing game! You only get 4 tries");
+    let guess=prompt("How many months until code school is over? *Beware you only get 4 guesses*");
     if (guess == number){
       alert ("You got it, nice job!");
       break;
