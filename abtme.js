@@ -56,7 +56,7 @@ function quiz () {
      //console.log("incorrect")
    }
 
-   let number=Math.floor(Math.random() * 101);
+   let number= 6;
    let tries = 4; 
    let i;
 
