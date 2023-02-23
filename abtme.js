@@ -56,21 +56,25 @@ function quiz () {
      //console.log("incorrect")
    }
 
-   let choice = prompt("how many months until code school is over?")
-    while (chancesLeft > 4) {
-      const answer = prompt("How many months until code school is over?");
-      if (answer === null) {
-        break;
-      }
-      else if (answer === expectedAnswer) {
-        answeredCorrectly = true;
-        break;
-      }
-      chancesLeft--;
+   let number=Math.floor(Math.random() * 101);
+   let tries = 4; 
+   let i;
+
+   for (i = 0; i < tries; i++){
+    let guess=prompt("Welcome to guessing game! You only get 4 tries");
+    if (guess == number){
+      alert ("You got it, nice job!");
+      break;
+    } else if (guess < number) {
+      alert("Your guess was lower than the answer.");
+    } else if (guess > number) {
+      alert("Your guess was higher than the answer.");
     }
-    if (!answeredCorrectly) {
-      alert("You are out of chances");
-    }
+   }
+
+  
+ 
+   
     
  alert(`Yay! ${person} you scored a  out of 5 questions`)
 
