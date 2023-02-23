@@ -68,7 +68,7 @@ function quiz () {
         tries++;
         console.log("tries =" + tries);
         alert("try again");
-      } else if (choice != uestion[pos][6] && tries >= 4) {
+      } else if (choice != question[pos][6] && tries >= 4) {
         alert("incorrect");
       }
     }
