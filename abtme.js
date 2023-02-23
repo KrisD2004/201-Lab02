@@ -67,9 +67,13 @@ function quiz () {
       break;
     } else if (guess < number) {
       alert("Your guess was lower than the answer.");
-    } else if (guess > number) {
+    } else if (guess >= number) {
       alert("Your guess was higher than the answer.");
     }
+   }
+
+   if (i == tries){
+    alert(`You lost. The random number was ${number}.`);
    }
 
   
