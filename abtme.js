@@ -103,14 +103,14 @@ function quiz () {
     //break;
    } else {
     alert(ua[i] + "was not correct");
-    
+
    }
 
   
  
    
     
- alert(`Yay! ${person} you scored a ${x} out of 5 questions`)
+ alert(`Yay! ${person} you scored a ${x} out of 7 questions`)
 
 
 }
