@@ -67,7 +67,7 @@ function quiz () {
       break;
     } else if (guess < number) {
       alert("Your guess was lower than the answer.");
-    } else if (guess >= number) {
+    } else if (guess > number) {
       alert("Your guess was higher than the answer.");
     }
    }
@@ -76,11 +76,41 @@ function quiz () {
     alert(`You lost. The random number was ${number}.`);
    }
 
+   let answer = ["lamborghini", "Bugatti", "Porsche", "Ferrari"];
+
+   let ua = [];//prompt("What are 4 supercar brands? ");
+
+   for (let i = 0; i < 6; i++) {
+    ua.push(prompt("What are 4 supercar brands?"))
+   }
+
+   let correct = false;
+   //loop through user answers
+   for (let i = 0; i < ua.length; i++) {
+    //check each user agaisnt the vorrect answers
+   }
+   for (let j = 0; j < answer.length; j++) {
+    if (ua[i] == answer [j]) {
+      connect = true;
+      break;
+    } else if (ua[i] != answer[j]) {
+      correct = false;
+    }
+   }
+   //Responds with correct
+   if (correct) {
+    alert(ua[i] + "was correct");
+    //break;
+   } else {
+    alert(ua[i] + "was not correct");
+    
+   }
+
   
  
    
     
- alert(`Yay! ${person} you scored a  out of 5 questions`)
+ alert(`Yay! ${person} you scored a ${x} out of 5 questions`)
 
 
 }
