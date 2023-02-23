@@ -56,5 +56,24 @@ function quiz () {
      //console.log("incorrect")
    }
 
-alert(`Yay! ${person} you scored a 4 out of 5 questions`)
+   let num = prompt("how many months until code school is over?")
+    if (choices[i].checked) {
+      choice = choices[i].value;
+      if (choice == questions[pos][6]) {
+        alert("correct");
+        correct++;
+        tries = 4;
+        pos++;
+      } else if (choice != questions[pos][6] && tries < 4) {
+        tries++;
+        console.log("tries =" + tries);
+        alert("try again");
+      } else if (choice != uestion[pos][6] && tries >= 4) {
+        alert("incorrect");
+      }
+    }
+
+ alert(`Yay! ${person} you scored a 4 out of 5 questions`)
+
+
 }
