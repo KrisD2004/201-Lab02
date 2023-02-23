@@ -57,23 +57,18 @@ function quiz () {
    }
 
    let choice = prompt("how many months until code school is over?")
-    if (choices[i].checked) {
-      choice = choices[i].value;
-      if (choice == questions[pos][6]) {
-        alert("correct");
-        correct++;
-        tries = 4;
-        pos++;
-      } else if (choice != questions[pos][6] && tries < 4) {
-        tries++;
-        console.log("tries =" + tries);
-        alert("try again");
-      } else if (choice != question[pos][6] && tries >= 4) {
-        alert("incorrect");
+    while (chancesLeft > 4) {
+      const answer = prompt("How many months until code school is over?");
+      if (answer === null) {
+        break;
       }
+      chancesLeft--;
+    }
+    if (!answeredCorrectly) {
+      alert("You are out of chances")
     }
 
- alert(`Yay! ${person} you scored a 4 out of 5 questions`)
+ alert(`Yay! ${person} you scored a  out of 5 questions`)
 
 
 }
