@@ -56,7 +56,7 @@ function quiz () {
      //console.log("incorrect")
    }
 
-   let num = prompt("how many months until code school is over?")
+   let choice = prompt("how many months until code school is over?")
     if (choices[i].checked) {
       choice = choices[i].value;
       if (choice == questions[pos][6]) {
