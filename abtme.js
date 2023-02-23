@@ -62,12 +62,16 @@ function quiz () {
       if (answer === null) {
         break;
       }
+      else if (answer === expectedAnswer) {
+        answeredCorrectly = true;
+        break;
+      }
       chancesLeft--;
     }
     if (!answeredCorrectly) {
-      alert("You are out of chances")
+      alert("You are out of chances");
     }
-
+    
  alert(`Yay! ${person} you scored a  out of 5 questions`)
 
 
