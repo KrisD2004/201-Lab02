@@ -7,7 +7,7 @@ function quiz () {
 
    let qs = prompt("Is it true I want to get into game development");
    let qslow = qs.toLowerCase()
-    if ( qslow === true ){
+    if ( qslow === "true" ){
         alert("Correct!") 
         x ++;}
     else {
