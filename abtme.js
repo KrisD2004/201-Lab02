@@ -81,7 +81,7 @@ function quiz () {
    let ua = [];//prompt("What are 4 supercar brands? ");
 
    for (let i = 0; i < 6; i++) {
-    ua.push(prompt("What are 4 supercar brands?"))
+    ua.push(prompt("What are 1 supercar brands?"))
    }
 
    let correct = false;
